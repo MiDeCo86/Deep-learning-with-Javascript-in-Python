@@ -33,9 +33,9 @@ model.fit(train_input, train_labels, epochs=200)
 print(model.evaluate(test_input, test_labels))
 
 #%%
-smallFileMb = np.array([1])
-predictedTime = model.predict(smallFileMb)
-print("Prediction for a file of size {}MB is {} second(s)".format(smallFileMb, predictedTime))
+smallfile_mb = np.array([1])
+predicted_time = model.predict(smallFileMb)
+print("Prediction for a file of size {}MB is {} second(s)".format(smallfile_mb, predicted_time))
 
 #%%
 plt.scatter(train_input, train_labels)

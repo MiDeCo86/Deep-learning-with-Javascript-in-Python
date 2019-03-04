@@ -30,7 +30,6 @@ model.compile(optimizer="sgd", loss="mae")
 model.fit(train_input, train_labels, epochs=200)
 
 #%%
-
 print(model.evaluate(test_input, test_labels))
 
 #%%

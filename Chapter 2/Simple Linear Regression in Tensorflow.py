@@ -34,7 +34,7 @@ print(model.evaluate(test_input, test_labels))
 
 #%%
 smallfile_mb = np.array([1])
-predicted_time = model.predict(smallFileMb)
+predicted_time = model.predict(smallfile_mb)
 print("Prediction for a file of size {}MB is {} second(s)".format(smallfile_mb, predicted_time))
 
 #%%
